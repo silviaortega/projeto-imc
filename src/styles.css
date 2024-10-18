@@ -46,7 +46,7 @@ main {
 }
 
 .imc-form {
-    width: 35%;
+    
     background-color: #491623;
     padding: 30px;
     border-radius: 10px;
@@ -110,7 +110,7 @@ footer span {
     }
 
     .imc-form {
-        font-size: 1.1rem;
+        width: 12rem;
     }
 
     footer p {
