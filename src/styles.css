@@ -1,0 +1,115 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./lady.jpeg);
+    background-size: 60%;
+    background-repeat: round;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos do header */
+header {
+    background-color: #491623;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+
+header h1 {
+    font-family: "Srisakdi", system-ui;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+header span {
+    font-size: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Estilos da seção principal */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.imc-form {
+    width: 30%;
+    background-color: #491623;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(80, 8, 8, 0.3);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imc-form input, .imc-form button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.imc-form button {
+    background-color: #865b66;
+    color: white;
+    cursor: pointer;
+}
+
+.imc-result {
+    background-color: #491623;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 60%;
+}
+
+.imc-result p {
+    font-size: 1.5rem;
+    color: #fbdde4;
+}
+
+/* Estilos do footer */
+footer {
+    background-color: #491623;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+footer span {
+    font-family: "Srisakdi", system-ui;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .imc-result p {
+        font-size: 1.2rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}

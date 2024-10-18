@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de IMC</title>
+    <link rel="stylesheet" href="./src/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@400;700&display=swap" rel="stylesheet">
+
+    
+    <link rel="icon" href="./src/favicon.ico" type="image/png">
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            
+        </div>
+        <h1>Calcule Seu <span>IMC</span></h1>
+    </header>
+
+    <main>
+        <section class="imc-form">
+            <form id="form-imc">
+                <label for="peso">Peso (kg):</label>
+                <input type="number" id="peso" placeholder="Ex: 70" required>
+
+                <label for="altura">Altura (m):</label>
+                <input type="number" id="altura" step="0.01" placeholder="Ex: 1.70" required>
+
+                <button type="submit">Calcular IMC</button>
+            </form>
+        </section>
+
+        <section class="imc-result">
+            <p id="resultado-imc"></p>
+            <p id="mensagem-imc"></p>
+        </section>
+
+        <audio autoplay loop hidden>
+            <source src="./src/LC-Free-Relaxing-LiborioConti.mp3" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 <span>The Lady.</span> Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./src/script.js"></script>
+</body>
+</html>
