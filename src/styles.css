@@ -76,8 +76,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     text-align: center;
-    width: 32rem;
-    height: 5rem;
+
 }
 
 .imc-result p {
@@ -106,17 +105,18 @@ footer span {
     header h1 {
         font-size: 2rem;
     }
-    
-    body {
-        max-height: auto;
-    }
 
     .imc-result p {
         font-size: 1.2rem;
     }
 
-    .imc-form {
+    section .imc-form {
         width: 12rem;
+    }
+
+    .imc-result {
+        width: auto;
+        height: auto;
     }
 
     footer p {

@@ -1,5 +1,6 @@
 document.getElementById('form-imc').addEventListener('submit', function(event) {
     event.preventDefault();
+    
 
     // Pegando valores dos inputs
     const peso = parseFloat(document.getElementById('peso').value);
